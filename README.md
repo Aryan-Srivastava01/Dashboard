@@ -1,12 +1,81 @@
-# React + Vite
+# Dashboard Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive dashboard built with React, Redux Toolkit, and Vite. This project provides a responsive UI for visualizing and managing data, and is easy to set up and extend.
 
-Currently, two official plugins are available:
+## Features
+- ⚡ Powered by [React](https://react.dev/) and [Vite](https://vitejs.dev/)
+- 🏪 State management with [Redux Toolkit](https://redux-toolkit.js.org/)
+- 📊 Custom widgets and charts (e.g., circular progress bars)
+- 🔥 Fast development with hot module replacement (HMR)
+- 🛠️ Linting with ESLint
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/dashboard.git
+cd dashboard
+npm install
+# or
+yarn install
+```
+
+### Running the App
+
+To start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The app will be available at [http://localhost:5173](http://localhost:5173) by default.
+
+### Building for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## Project Structure
+
+- `src/` — Main source code
+  - `components/` — Reusable React components
+  - `redux/` — Redux store and slices
+  - `App.jsx` — Main app component
+- `public/` — Static assets
+- `index.html` — HTML entry point
+
+## Contributing
+
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Feel free to customize this dashboard for your needs! If you have any questions or suggestions, please open an issue.
