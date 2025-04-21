@@ -1,0 +1,109 @@
+{
+    "categories": [
+      {
+        "id": "csppm",
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "id": "cloud-accounts",
+            "name": "Cloud Accounts",
+            "content": {
+              "Connected": 2,
+              "Not Connected": 2
+            },
+            "type": "status"
+          },
+          {
+            "id": "risk-assessment",
+            "name": "Cloud Account Risk Assessment",
+            "content": {
+              "Total": 9659,
+              "Failed": 1689,
+              "Warning": 681,
+              "NotAvailable": 36,
+              "Passed": 7253
+            },
+            "type": "risk"
+          }
+        ]
+      },
+      {
+        "id": "cwpp",
+        "name": "CWPP Dashboard",
+        "widgets": [
+          {
+            "id": "top-alerts",
+            "name": "Top 5 Namespace Specific Alerts",
+            "content": "No Graph data available!",
+            "type": "text"
+          },
+          {
+            "id": "workload-alerts",
+            "name": "Workload Alerts",
+            "content": "No Graph data available!",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "registry-scan",
+        "name": "Registry Scan",
+        "widgets": [
+          {
+            "id": "image-risk",
+            "name": "Image Risk Assessment",
+            "content": {
+              "Total": 1470,
+              "Critical": 9,
+              "High": 150,
+              "Warning": 300,
+              "Passed": 1000,
+              "NotAvailable": 11
+            },
+            "type": "risk"
+          },
+          {
+            "id": "image-security",
+            "name": "Image Security Issues",
+            "content": {
+              "Total Images": 2,
+              "Critical": 2,
+              "High": 2,
+              "Warning": 0,
+              "Passed": 0,
+              "NotAvailable": 0
+            },
+            "type": "status"
+          }
+        ]
+      }
+    ],
+    "availableWidgets": [
+      {
+        "id": "text-widget",
+        "name": "Text Widget",
+        "defaultContent": "New text content",
+        "type": "text"
+      },
+      {
+        "id": "status-widget",
+        "name": "Status Widget",
+        "defaultContent": {
+          "Status1": 0,
+          "Status2": 0
+        },
+        "type": "status"
+      },
+      {
+        "id": "risk-widget",
+        "name": "Risk Widget",
+        "defaultContent": {
+          "Total": 0,
+          "Failed": 0,
+          "Warning": 0,
+          "Passed": 0
+        },
+        "type": "risk"
+      }
+    ]
+  }
